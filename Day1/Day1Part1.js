@@ -1,7 +1,7 @@
 const fs = require('fs');
 const async = require('async');
 
-fs.readFile('./Day1Part1.txt', 'utf8', function(err, contents) {
+fs.readFile('./Day1.txt', 'utf8', function(err, contents) {
     if (err) {
         console.log(err);
         return;
